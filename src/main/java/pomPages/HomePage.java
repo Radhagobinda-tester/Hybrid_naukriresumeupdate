@@ -9,6 +9,9 @@ public class HomePage {
 	//Declaration 
 	@FindBy(xpath="//a[text()='View']")
 	private WebElement pfbtn;
+	
+	@FindBy (xpath="//p[normalize-space()='Last updated today']")
+	private WebElement text;
 	// initialization 
 
 	public HomePage(WebDriver driver) {
@@ -19,4 +22,7 @@ public class HomePage {
 		pfbtn.click();
 	}
 	
+	public String textName() {
+		return text.getText();
+	}
 }

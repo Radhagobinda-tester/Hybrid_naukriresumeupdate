@@ -50,8 +50,19 @@ public class tc0 extends BaseClass {
            System.out.println(line);
            
        }
-
-      
+       Thread.sleep(10000);
+          driver.navigate().back();
+          Thread.sleep(5000);
+          String Expectedtext = "Last updated today";
+          String Actualtext = pf.textName();
+          System.out.println(Actualtext);
+          if(Actualtext.equals(Expectedtext)) {
+        	  
+        	  System.out.println("The resume is succesfully updated"); 
+          }
+          else {
+        	  System.out.println("The resume is not updated");
+          }
 
      //Runtime.getRuntime().exec("‪C:\\autoit\\m.exe");
     /* System.setProperty(LibraryLoader.JACOB_DLL_PATH, "path_to_jacob.dll");
