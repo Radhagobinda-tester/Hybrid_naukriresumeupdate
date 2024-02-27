@@ -5,23 +5,23 @@
       <![CDATA[Home | Mynaukri]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-02-24T07:06:43 IST" name="Default suite" finished-at="2024-02-24T07:07:38 IST" duration-ms="54295">
+  <suite started-at="2024-02-28T04:27:43 IST" name="Default suite" finished-at="2024-02-28T04:28:45 IST" duration-ms="61769">
     <groups>
     </groups>
-    <test started-at="2024-02-24T07:06:43 IST" name="Default test" finished-at="2024-02-24T07:07:38 IST" duration-ms="54295">
+    <test started-at="2024-02-28T04:27:43 IST" name="Default test" finished-at="2024-02-28T04:28:45 IST" duration-ms="61769">
       <class name="testscripts.tc0">
-        <test-method is-config="true" signature="openApp()[pri:0, instance:testscripts.tc0@2b91004a]" started-at="2024-02-24T07:06:43 IST" name="openApp" finished-at="2024-02-24T07:06:49 IST" duration-ms="6116" status="PASS">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:testscripts.tc0@2b91004a]" started-at="2024-02-28T04:27:43 IST" name="openApp" finished-at="2024-02-28T04:27:51 IST" duration-ms="7769" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="tc0()[pri:0, instance:testscripts.tc0@2b91004a]" started-at="2024-02-24T07:06:49 IST" name="tc0" finished-at="2024-02-24T07:07:37 IST" duration-ms="47706" status="PASS">
+        <test-method signature="tc0()[pri:0, instance:testscripts.tc0@2b91004a]" started-at="2024-02-28T04:27:51 IST" name="tc0" finished-at="2024-02-28T04:28:45 IST" duration-ms="53550" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Home | Mynaukri]]>
             </line>
           </reporter-output>
         </test-method> <!-- tc0 -->
-        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:testscripts.tc0@2b91004a]" started-at="2024-02-24T07:07:37 IST" name="CloseApp" finished-at="2024-02-24T07:07:38 IST" duration-ms="422" status="PASS">
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:testscripts.tc0@2b91004a]" started-at="2024-02-28T04:28:45 IST" name="CloseApp" finished-at="2024-02-28T04:28:45 IST" duration-ms="390" status="PASS">
           <params>
             <param index="0">
               <value>

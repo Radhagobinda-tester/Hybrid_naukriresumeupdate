@@ -58,7 +58,7 @@ public class tc0 extends BaseClass {
           System.out.println(Actualtext);
           if(Actualtext.equals(Expectedtext)) {
         	  
-        	  System.out.println("The resume is succesfully updated"); 
+        	  System.out.println("The resume is successfully updated"); 
           }
           else {
         	  System.out.println("The resume is not updated");
