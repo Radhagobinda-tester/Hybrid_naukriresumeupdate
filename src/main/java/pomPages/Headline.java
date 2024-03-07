@@ -6,10 +6,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class Headline {
-	//Declaration 
+	//Declaration
 		@FindBy(xpath=" (//span[contains(text(),'editOneTheme')])[2]")
 		private WebElement edit;
-		//// initialization 
+		//// initialization
 		public Headline(WebDriver driver) {
 			PageFactory.initElements(driver, this);
 		}

@@ -1,36 +1,33 @@
 package testscripts;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import genericLib.BaseClass;
-import genericLib.WebDriverDriverUtilies;
 import pomPages.HomePage;
 import pomPages.NaukriLoginPage;
 import pomPages.ProfilePage;
 
-@Test
+@Test(invocationCount = 3)
 public class tc0 extends BaseClass {
     public void tc0() throws IOException, InterruptedException {
-        
+
         NaukriLoginPage p = new NaukriLoginPage(driver);
         p.loginBtn();
         p.Emailtf(pdata.getPropertyfiledata("Email"));
         Thread.sleep(5000);
         p.passwordtf(pdata.getPropertyfiledata("Password"));
-       
+
         p.Submitbtn();
-    
+
 
         HomePage pf = new HomePage(driver);
          //Thread.sleep(5000);
         pf.profilebtn();
-    
-     
+
+
         ProfilePage up =new  ProfilePage(driver);
       /*  try {
             WebDriverDriverUtilies.alertPopup(driver);
@@ -40,25 +37,27 @@ public class tc0 extends BaseClass {
         }
         */
         up.Upload();
-       Thread.sleep(5000);
+       Thread.sleep(10000);
        //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-      // Runtime.getRuntime().exec("F:\\Autoit\\z.exe");
+      Runtime.getRuntime().exec("F:\\Autoit\\z.exe");
+      /*
        Process process = Runtime.getRuntime().exec("F:\\Autoit\\z.exe");
        BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
        String line;
        while ((line = reader.readLine()) != null) {
            System.out.println(line);
-           
+
        }
-       Thread.sleep(10000);
+       */
+       Thread.sleep(20000);
           driver.navigate().back();
           Thread.sleep(5000);
           String Expectedtext = "Last updated today";
           String Actualtext = pf.textName();
           System.out.println(Actualtext);
           if(Actualtext.equals(Expectedtext)) {
-        	  
-        	  System.out.println("The resume is successfully updated"); 
+
+        	  System.out.println("The resume is successfully updated");
           }
           else {
         	  System.out.println("The resume is not updated");
@@ -78,9 +77,9 @@ public class tc0 extends BaseClass {
      // Click the "Open" button
      autoIt.controlClick("Open", "&Open", "Button1");
      */
-    
+
        Thread.sleep(5000);
-       
+
        Reporter.log(driver.getTitle(),true);
     }
 

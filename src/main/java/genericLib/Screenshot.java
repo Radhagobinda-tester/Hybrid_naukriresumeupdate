@@ -12,11 +12,11 @@ import org.openqa.selenium.WebDriver;
 public class Screenshot {
 
 	public void  getPhoto(WebDriver driver,String name) throws IOException {
-		
+
 		Date d = new Date();
 		String currentdate = d.toString().replaceAll(":","-");
 		TakesScreenshot ts = (TakesScreenshot)driver;
-		 
+
 		File src = ts.getScreenshotAs(OutputType.FILE);
 		File dest = new File(Autoconstant.photopath+currentdate+name+".png");
 		FileUtils.copyFile(src,dest);

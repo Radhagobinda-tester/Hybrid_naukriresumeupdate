@@ -6,22 +6,22 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class HomePage {
-	//Declaration 
+	//Declaration
 	@FindBy(xpath="//a[text()='View']")
 	private WebElement pfbtn;
-	
+
 	@FindBy (xpath="//p[normalize-space()='Last updated today']")
 	private WebElement text;
-	// initialization 
+	// initialization
 
 	public HomePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
-	
+
 	public void profilebtn() {
 		pfbtn.click();
 	}
-	
+
 	public String textName() {
 		return text.getText();
 	}

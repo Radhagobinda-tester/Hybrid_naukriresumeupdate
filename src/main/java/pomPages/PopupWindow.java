@@ -10,20 +10,20 @@ public class PopupWindow {
  private WebElement text;
  @FindBy(xpath="(//button[contains(text(),'Save')])[2]")
  private WebElement submit;
- 
+
  public PopupWindow(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
  public void ClearText() {
 	 text.clear();
-	 
+
  }
- 
+
  public void TextField(String key) {
 	 text.sendKeys(key);
  }
- 
-	
+
+
  public void SubmitBtn(){
 	 submit.click();
  }

@@ -6,10 +6,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class ProfilePage {
-	//Declaration 
+	//Declaration
 	@FindBy(xpath="//a[text()='Update']")
 	private WebElement Attachcv;
-	//// initialization 
+	//// initialization
 	public ProfilePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
