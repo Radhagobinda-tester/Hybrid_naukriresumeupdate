@@ -20,23 +20,23 @@
       <![CDATA[Profile | Mynaukri]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-03-18T06:44:11 IST" name="Suite" finished-at="2024-03-18T06:49:34 IST" duration-ms="322890">
+  <suite started-at="2024-03-22T04:36:21 IST" name="Suite" finished-at="2024-03-22T04:41:41 IST" duration-ms="320134">
     <groups>
     </groups>
-    <test started-at="2024-03-18T06:44:11 IST" name="Test" finished-at="2024-03-18T06:49:34 IST" duration-ms="322890">
+    <test started-at="2024-03-22T04:36:21 IST" name="Test" finished-at="2024-03-22T04:41:41 IST" duration-ms="320134">
       <class name="testscripts.tc1">
-        <test-method is-config="true" signature="openApp()[pri:0, instance:testscripts.tc1@54e1c68b]" started-at="2024-03-18T06:47:06 IST" name="openApp" finished-at="2024-03-18T06:47:10 IST" duration-ms="4431" status="PASS">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:testscripts.tc1@54e1c68b]" started-at="2024-03-22T04:39:13 IST" name="openApp" finished-at="2024-03-22T04:39:17 IST" duration-ms="4430" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="tc1()[pri:0, instance:testscripts.tc1@54e1c68b]" started-at="2024-03-18T06:47:10 IST" name="tc1" finished-at="2024-03-18T06:47:55 IST" duration-ms="44933" status="PASS">
+        <test-method signature="tc1()[pri:0, instance:testscripts.tc1@54e1c68b]" started-at="2024-03-22T04:39:17 IST" name="tc1" finished-at="2024-03-22T04:40:02 IST" duration-ms="44482" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Profile | Mynaukri]]>
             </line>
           </reporter-output>
         </test-method> <!-- tc1 -->
-        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:testscripts.tc1@54e1c68b]" started-at="2024-03-18T06:47:55 IST" name="CloseApp" finished-at="2024-03-18T06:47:55 IST" duration-ms="307" status="PASS">
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:testscripts.tc1@54e1c68b]" started-at="2024-03-22T04:40:02 IST" name="CloseApp" finished-at="2024-03-22T04:40:02 IST" duration-ms="314" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,18 +47,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseApp -->
-        <test-method is-config="true" signature="openApp()[pri:0, instance:testscripts.tc1@54e1c68b]" started-at="2024-03-18T06:47:55 IST" name="openApp" finished-at="2024-03-18T06:47:57 IST" duration-ms="1384" status="PASS">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:testscripts.tc1@54e1c68b]" started-at="2024-03-22T04:40:02 IST" name="openApp" finished-at="2024-03-22T04:40:06 IST" duration-ms="4419" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="tc1()[pri:0, instance:testscripts.tc1@54e1c68b]" started-at="2024-03-18T06:47:57 IST" name="tc1" finished-at="2024-03-18T06:48:44 IST" duration-ms="47130" status="PASS">
+        <test-method signature="tc1()[pri:0, instance:testscripts.tc1@54e1c68b]" started-at="2024-03-22T04:40:06 IST" name="tc1" finished-at="2024-03-22T04:40:51 IST" duration-ms="44619" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Profile | Mynaukri]]>
             </line>
           </reporter-output>
         </test-method> <!-- tc1 -->
-        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:testscripts.tc1@54e1c68b]" started-at="2024-03-18T06:48:44 IST" name="CloseApp" finished-at="2024-03-18T06:48:44 IST" duration-ms="370" status="PASS">
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:testscripts.tc1@54e1c68b]" started-at="2024-03-22T04:40:51 IST" name="CloseApp" finished-at="2024-03-22T04:40:51 IST" duration-ms="344" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -69,18 +69,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseApp -->
-        <test-method is-config="true" signature="openApp()[pri:0, instance:testscripts.tc1@54e1c68b]" started-at="2024-03-18T06:48:44 IST" name="openApp" finished-at="2024-03-18T06:48:48 IST" duration-ms="4047" status="PASS">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:testscripts.tc1@54e1c68b]" started-at="2024-03-22T04:40:51 IST" name="openApp" finished-at="2024-03-22T04:40:56 IST" duration-ms="4534" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="tc1()[pri:0, instance:testscripts.tc1@54e1c68b]" started-at="2024-03-18T06:48:48 IST" name="tc1" finished-at="2024-03-18T06:49:33 IST" duration-ms="45270" status="PASS">
+        <test-method signature="tc1()[pri:0, instance:testscripts.tc1@54e1c68b]" started-at="2024-03-22T04:40:56 IST" name="tc1" finished-at="2024-03-22T04:41:40 IST" duration-ms="44440" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Profile | Mynaukri]]>
             </line>
           </reporter-output>
         </test-method> <!-- tc1 -->
-        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:testscripts.tc1@54e1c68b]" started-at="2024-03-18T06:49:33 IST" name="CloseApp" finished-at="2024-03-18T06:49:34 IST" duration-ms="342" status="PASS">
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:testscripts.tc1@54e1c68b]" started-at="2024-03-22T04:41:40 IST" name="CloseApp" finished-at="2024-03-22T04:41:41 IST" duration-ms="310" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -93,18 +93,18 @@
         </test-method> <!-- CloseApp -->
       </class> <!-- testscripts.tc1 -->
       <class name="testscripts.tc0">
-        <test-method is-config="true" signature="openApp()[pri:0, instance:testscripts.tc0@1de76cc7]" started-at="2024-03-18T06:44:11 IST" name="openApp" finished-at="2024-03-18T06:44:18 IST" duration-ms="6468" status="PASS">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:testscripts.tc0@1de76cc7]" started-at="2024-03-22T04:36:21 IST" name="openApp" finished-at="2024-03-22T04:36:28 IST" duration-ms="7318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="tc0()[pri:0, instance:testscripts.tc0@1de76cc7]" started-at="2024-03-18T06:44:18 IST" name="tc0" finished-at="2024-03-18T06:45:13 IST" duration-ms="55161" status="PASS">
+        <test-method signature="tc0()[pri:0, instance:testscripts.tc0@1de76cc7]" started-at="2024-03-22T04:36:28 IST" name="tc0" finished-at="2024-03-22T04:37:21 IST" duration-ms="53106" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Home | Mynaukri]]>
             </line>
           </reporter-output>
         </test-method> <!-- tc0 -->
-        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:testscripts.tc0@1de76cc7]" started-at="2024-03-18T06:45:13 IST" name="CloseApp" finished-at="2024-03-18T06:45:13 IST" duration-ms="389" status="PASS">
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:testscripts.tc0@1de76cc7]" started-at="2024-03-22T04:37:21 IST" name="CloseApp" finished-at="2024-03-22T04:37:21 IST" duration-ms="407" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -115,18 +115,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseApp -->
-        <test-method is-config="true" signature="openApp()[pri:0, instance:testscripts.tc0@1de76cc7]" started-at="2024-03-18T06:45:13 IST" name="openApp" finished-at="2024-03-18T06:45:18 IST" duration-ms="4469" status="PASS">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:testscripts.tc0@1de76cc7]" started-at="2024-03-22T04:37:21 IST" name="openApp" finished-at="2024-03-22T04:37:26 IST" duration-ms="4572" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="tc0()[pri:0, instance:testscripts.tc0@1de76cc7]" started-at="2024-03-18T06:45:18 IST" name="tc0" finished-at="2024-03-18T06:46:09 IST" duration-ms="51247" status="PASS">
+        <test-method signature="tc0()[pri:0, instance:testscripts.tc0@1de76cc7]" started-at="2024-03-22T04:37:26 IST" name="tc0" finished-at="2024-03-22T04:38:17 IST" duration-ms="51386" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Home | Mynaukri]]>
             </line>
           </reporter-output>
         </test-method> <!-- tc0 -->
-        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:testscripts.tc0@1de76cc7]" started-at="2024-03-18T06:46:09 IST" name="CloseApp" finished-at="2024-03-18T06:46:09 IST" duration-ms="389" status="PASS">
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:testscripts.tc0@1de76cc7]" started-at="2024-03-22T04:38:17 IST" name="CloseApp" finished-at="2024-03-22T04:38:18 IST" duration-ms="315" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -137,18 +137,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseApp -->
-        <test-method is-config="true" signature="openApp()[pri:0, instance:testscripts.tc0@1de76cc7]" started-at="2024-03-18T06:46:09 IST" name="openApp" finished-at="2024-03-18T06:46:14 IST" duration-ms="4500" status="PASS">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:testscripts.tc0@1de76cc7]" started-at="2024-03-22T04:38:18 IST" name="openApp" finished-at="2024-03-22T04:38:22 IST" duration-ms="4148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="tc0()[pri:0, instance:testscripts.tc0@1de76cc7]" started-at="2024-03-18T06:46:14 IST" name="tc0" finished-at="2024-03-18T06:47:05 IST" duration-ms="51379" status="PASS">
+        <test-method signature="tc0()[pri:0, instance:testscripts.tc0@1de76cc7]" started-at="2024-03-22T04:38:22 IST" name="tc0" finished-at="2024-03-22T04:39:12 IST" duration-ms="50564" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Home | Mynaukri]]>
             </line>
           </reporter-output>
         </test-method> <!-- tc0 -->
-        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:testscripts.tc0@1de76cc7]" started-at="2024-03-18T06:47:05 IST" name="CloseApp" finished-at="2024-03-18T06:47:06 IST" duration-ms="368" status="PASS">
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:testscripts.tc0@1de76cc7]" started-at="2024-03-22T04:39:12 IST" name="CloseApp" finished-at="2024-03-22T04:39:13 IST" duration-ms="336" status="PASS">
           <params>
             <param index="0">
               <value>
