@@ -45,8 +45,6 @@
             <version>5.8.0</version> <!-- Use the appropriate version -->
         </dependency>
 
-        <!-- AutoItX4Java -->
-
         <!-- JACOB (Java COM Bridge) -->
         <dependency>
             <groupId>com.hynnet</groupId>
@@ -59,12 +57,6 @@
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
             <version>5.6.3</version> <!-- Use the appropriate version -->
-        </dependency>
-
-        <dependency>
-            <groupId>Selenium</groupId>
-            <artifactId>SampleProject1</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
