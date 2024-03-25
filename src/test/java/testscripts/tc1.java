@@ -10,7 +10,7 @@ import pomPages.Headline;
 import pomPages.HomePage;
 import pomPages.NaukriLoginPage;
 import pomPages.PopupWindow;
-@Test(invocationCount = 3)
+@Test
 public class tc1 extends BaseClass {
 
 

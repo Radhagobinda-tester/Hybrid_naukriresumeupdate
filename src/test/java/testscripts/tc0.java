@@ -10,7 +10,7 @@ import pomPages.HomePage;
 import pomPages.NaukriLoginPage;
 import pomPages.ProfilePage;
 
-@Test(invocationCount = 3)
+@Test
 public class tc0 extends BaseClass {
     public void tc0() throws IOException, InterruptedException {
 
