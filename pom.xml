@@ -58,6 +58,13 @@
             <artifactId>webdrivermanager</artifactId>
             <version>5.6.3</version> <!-- Use the appropriate version -->
         </dependency>
+
+        <!-- Commented out the problematic dependency -->
+        <!-- <dependency>
+            <groupId>Selenium</groupId>
+            <artifactId>SampleProject1</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency> -->
     </dependencies>
 
     <build>
