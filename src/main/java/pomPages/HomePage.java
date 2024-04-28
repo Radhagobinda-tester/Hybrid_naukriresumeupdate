@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class HomePage {
 	//Declaration
-	@FindBy(xpath="//a[text()='View']")
+	@FindBy(xpath="//a[normalize-space()='View profile']")
 	private WebElement pfbtn;
 
 	@FindBy (xpath="//p[normalize-space()='Last updated today']")

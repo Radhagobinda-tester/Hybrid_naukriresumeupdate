@@ -1,57 +1,66 @@
 package testscripts;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.concurrent.TimeUnit;
 
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import genericLib.BaseClass;
+import genericLib.WebDriverDriverUtilies;
 import pomPages.HomePage;
 import pomPages.NaukriLoginPage;
 import pomPages.ProfilePage;
 
 @Test
 public class tc0 extends BaseClass {
-    public void tc0() throws IOException, InterruptedException {
+   
+	public void tc0() throws IOException, InterruptedException {
 
         NaukriLoginPage p = new NaukriLoginPage(driver);
         p.loginBtn();
         p.Emailtf(pdata.getPropertyfiledata("Email"));
-        Thread.sleep(5000);
+        Thread.sleep(10000);
         p.passwordtf(pdata.getPropertyfiledata("Password"));
 
         p.Submitbtn();
 
 
         HomePage pf = new HomePage(driver);
-         //Thread.sleep(5000);
+         Thread.sleep(10000);
         pf.profilebtn();
 
 
         ProfilePage up =new  ProfilePage(driver);
-      /*  try {
+     /* try {
             WebDriverDriverUtilies.alertPopup(driver);
         } catch (Exception e) {
             // Handle the exception here
             e.printStackTrace(); // or log the exception
         }
         */
+        
         up.Upload();
-       Thread.sleep(10000);
-       //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-      Runtime.getRuntime().exec("F:\\Autoit\\z.exe");
-      /*
-       Process process = Runtime.getRuntime().exec("F:\\Autoit\\z.exe");
+       Thread.sleep(30000);
+      
+        Runtime.getRuntime().exec("F:\\Autoit\\z.exe");
+       /*
+       Runtime.getRuntime().exec("‪F:\\Autoit\\fiz.exe");
+       
+      
+       Process process = Runtime.getRuntime().exec("‪F:\\Autoit\\fiz.exe");
        BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
        String line;
        while ((line = reader.readLine()) != null) {
            System.out.println(line);
 
-       }
        */
-       Thread.sleep(20000);
+       
+       Thread.sleep(60000);
           driver.navigate().back();
-          Thread.sleep(5000);
+          Thread.sleep(20000);
           String Expectedtext = "Last updated today";
           String Actualtext = pf.textName();
           System.out.println(Actualtext);

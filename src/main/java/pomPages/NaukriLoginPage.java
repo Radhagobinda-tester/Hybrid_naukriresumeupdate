@@ -24,12 +24,12 @@ public NaukriLoginPage(WebDriver driver) {
 }
 	//Declaration
 
-	public void loginBtn() {
-		LoginButton.click();
-	}
-
 	public void Emailtf(String key) {
 		EmailTextField.sendKeys(key);
+	}
+
+	public void loginBtn() {
+		LoginButton.click();
 	}
 	public void passwordtf(String key) {
 

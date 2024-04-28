@@ -19,12 +19,12 @@ public class PopupWindow {
 
  }
 
- public void TextField(String key) {
-	 text.sendKeys(key);
+ public void SubmitBtn(){
+	 submit.click();
  }
 
 
- public void SubmitBtn(){
-	 submit.click();
+ public void TextField(String key) {
+	 text.sendKeys(key);
  }
 }

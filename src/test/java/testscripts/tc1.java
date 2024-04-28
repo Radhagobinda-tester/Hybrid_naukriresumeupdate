@@ -29,11 +29,11 @@ public class tc1 extends BaseClass {
 
 
 	    HomePage pf = new HomePage(driver);
-
+	    Thread.sleep(20000);
 	     pf.profilebtn();
 
 	     Headline h =new Headline(driver);
-	     Thread.sleep(5000);
+	     Thread.sleep(20000);
 	     /*
 	     try {
 	            WebDriverDriverUtilies.alertPopup(driver);

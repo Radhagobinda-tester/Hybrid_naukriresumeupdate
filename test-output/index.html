@@ -7,7 +7,7 @@
 
     <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
     <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
-    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -21,8 +21,7 @@
      -->
   </head>
 
-  <body>
-    <div class="top-banner-root">
+  <body>    <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
@@ -127,21 +126,6 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testscripts.tc0</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc0">
-                  </a> <!-- tc0 -->
-                  <span class="method-name">tc0</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">testscripts.tc1</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -150,6 +134,21 @@
                   <a name="tc1">
                   </a> <!-- tc1 -->
                   <span class="method-name">tc1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testscripts.tc0</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc0">
+                  </a> <!-- tc0 -->
+                  <span class="method-name">tc0</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -163,13 +162,13 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testscripts.tc0&quot;/&gt;
       &lt;class name=&quot;testscripts.tc1&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;/test&gt; &lt;!-- test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -181,7 +180,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (2 classes)</span>
+                <span class="test-name">test (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -211,16 +210,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'tc0')
 data.setCell(0, 2, 'testscripts.tc0')
-data.setCell(0, 3, 56554);
+data.setCell(0, 3, 141859);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'tc1')
 data.setCell(1, 2, 'testscripts.tc1')
-data.setCell(1, 3, 46763);
+data.setCell(1, 3, 78681);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -232,15 +231,15 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">tc1</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Profile | Mynaukri</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
               <span class="reporter-method-name">tc0</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Home | Mynaukri</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">tc1</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Profile | Mynaukri</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -265,26 +264,26 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">tc0</span>
-                <span class="method-start">9481 ms</span>
+                <span class="method-start">10867 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">CloseApp([TestResult name=tc0 status=SUCCESS method=tc0.tc0()[pri:0, instance:testscripts.tc0@1de76cc7] outpu...)</span>
-                <span class="method-start">66041 ms</span>
+                <span class="method-name">CloseApp([TestResult name=tc0 status=SUCCESS method=tc0.tc0()[pri:0, instance:testscripts.tc0@5b218417] outpu...)</span>
+                <span class="method-start">152733 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testscripts.tc1</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">openApp</span>
-                <span class="method-start">66475 ms</span>
+                <span class="method-start">153284 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">tc1</span>
-                <span class="method-start">75668 ms</span>
+                <span class="method-start">160754 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">CloseApp([TestResult name=tc1 status=SUCCESS method=tc1.tc1()[pri:0, instance:testscripts.tc1@783a467b] outpu...)</span>
-                <span class="method-start">122436 ms</span>
+                <span class="method-name">CloseApp([TestResult name=tc1 status=SUCCESS method=tc1.tc1()[pri:0, instance:testscripts.tc1@4bdeaabb] outpu...)</span>
+                <span class="method-start">239437 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

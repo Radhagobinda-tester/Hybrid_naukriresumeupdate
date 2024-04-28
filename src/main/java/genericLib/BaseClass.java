@@ -5,6 +5,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -20,19 +21,17 @@ public class BaseClass {
 
 
 	public WebDriverDriverUtilies driverutilies = new WebDriverDriverUtilies();
-
+	
 	@BeforeMethod
 
 	public void openApp() throws IOException {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
+		//driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.get(pdata.getPropertyfiledata("url"));
 		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 		}
-
-
-
 
 
 	@AfterMethod
@@ -52,4 +51,9 @@ public class BaseClass {
 
 	}
 
+
+
+
+
+	
 }
