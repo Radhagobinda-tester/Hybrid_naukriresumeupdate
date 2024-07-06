@@ -8,23 +8,23 @@
       <![CDATA[Profile | Mynaukri]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-05-19T10:31:24 IST" name="Suite" finished-at="2024-05-19T10:35:41 IST" duration-ms="257552">
+  <suite started-at="2024-07-06T16:32:45 IST" name="Suite" finished-at="2024-07-06T16:36:51 IST" duration-ms="245995">
     <groups>
     </groups>
-    <test started-at="2024-05-19T10:31:24 IST" name="test" finished-at="2024-05-19T10:35:41 IST" duration-ms="257552">
+    <test started-at="2024-07-06T16:32:45 IST" name="test" finished-at="2024-07-06T16:36:51 IST" duration-ms="245995">
       <class name="testscripts.tc1">
-        <test-method is-config="true" signature="openApp()[pri:0, instance:testscripts.tc1@4bdeaabb]" started-at="2024-05-19T10:34:04 IST" name="openApp" finished-at="2024-05-19T10:34:06 IST" duration-ms="1821" status="PASS">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:testscripts.tc1@4bdeaabb]" started-at="2024-07-06T16:35:23 IST" name="openApp" finished-at="2024-07-06T16:35:31 IST" duration-ms="8806" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="tc1()[pri:0, instance:testscripts.tc1@4bdeaabb]" started-at="2024-05-19T10:34:06 IST" name="tc1" finished-at="2024-05-19T10:35:41 IST" duration-ms="94961" status="PASS">
+        <test-method signature="tc1()[pri:0, instance:testscripts.tc1@4bdeaabb]" started-at="2024-07-06T16:35:31 IST" name="tc1" finished-at="2024-07-06T16:36:51 IST" duration-ms="79231" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Profile | Mynaukri]]>
             </line>
           </reporter-output>
         </test-method> <!-- tc1 -->
-        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:testscripts.tc1@4bdeaabb]" started-at="2024-05-19T10:35:41 IST" name="CloseApp" finished-at="2024-05-19T10:35:41 IST" duration-ms="401" status="PASS">
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:testscripts.tc1@4bdeaabb]" started-at="2024-07-06T16:36:51 IST" name="CloseApp" finished-at="2024-07-06T16:36:51 IST" duration-ms="524" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,18 +37,18 @@
         </test-method> <!-- CloseApp -->
       </class> <!-- testscripts.tc1 -->
       <class name="testscripts.tc0">
-        <test-method is-config="true" signature="openApp()[pri:0, instance:testscripts.tc0@5b218417]" started-at="2024-05-19T10:31:24 IST" name="openApp" finished-at="2024-05-19T10:31:43 IST" duration-ms="19411" status="PASS">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:testscripts.tc0@5b218417]" started-at="2024-07-06T16:32:45 IST" name="openApp" finished-at="2024-07-06T16:32:59 IST" duration-ms="13715" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="tc0()[pri:0, instance:testscripts.tc0@5b218417]" started-at="2024-05-19T10:31:43 IST" name="tc0" finished-at="2024-05-19T10:34:04 IST" duration-ms="140280" status="PASS">
+        <test-method signature="tc0()[pri:0, instance:testscripts.tc0@5b218417]" started-at="2024-07-06T16:32:59 IST" name="tc0" finished-at="2024-07-06T16:35:22 IST" duration-ms="142909" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Home | Mynaukri]]>
             </line>
           </reporter-output>
         </test-method> <!-- tc0 -->
-        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:testscripts.tc0@5b218417]" started-at="2024-05-19T10:34:04 IST" name="CloseApp" finished-at="2024-05-19T10:34:04 IST" duration-ms="571" status="PASS">
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:testscripts.tc0@5b218417]" started-at="2024-07-06T16:35:22 IST" name="CloseApp" finished-at="2024-07-06T16:35:23 IST" duration-ms="659" status="PASS">
           <params>
             <param index="0">
               <value>
