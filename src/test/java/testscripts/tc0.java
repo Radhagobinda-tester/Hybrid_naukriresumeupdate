@@ -8,6 +8,8 @@ import java.util.concurrent.TimeUnit;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
+import com.jacob.com.LibraryLoader;
+
 import genericLib.BaseClass;
 import genericLib.WebDriverDriverUtilies;
 import pomPages.HomePage;
@@ -45,18 +47,10 @@ public class tc0 extends BaseClass {
         up.Upload();
        Thread.sleep(30000);
       
-        Runtime.getRuntime().exec("F:\\Autoit\\z.exe");
-       /*
-       Runtime.getRuntime().exec("‪F:\\Autoit\\fiz.exe");
-       
-      
-       Process process = Runtime.getRuntime().exec("‪F:\\Autoit\\fiz.exe");
-       BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
-       String line;
-       while ((line = reader.readLine()) != null) {
-           System.out.println(line);
+       Runtime.getRuntime().exec("F:\\Autoit\\mt2.exe");
 
-       */
+        
+      
        
        Thread.sleep(60000);
           driver.navigate().back();
@@ -72,8 +66,8 @@ public class tc0 extends BaseClass {
         	  System.out.println("The resume is not updated");
           }
 
-     //Runtime.getRuntime().exec("‪C:\\autoit\\m.exe");
-    /* System.setProperty(LibraryLoader.JACOB_DLL_PATH, "path_to_jacob.dll");
+     /*
+     System.setProperty(LibraryLoader.JACOB_DLL_PATH, "path_to_jacob.dll");
      AutoItX autoIt = new AutoItX();
 
      // Wait for "Open" dialog and set focus to file input field
@@ -81,14 +75,15 @@ public class tc0 extends BaseClass {
      autoIt.controlFocus("Open", "", "Edit1");
 
      // Type the file path into the file input field
-     autoIt.send("C:\\resume\\Radha Gobinda Dash recent.docx");
+     autoIt.send("F:\\Resume\\Radha Gobinda Dash M&T Updated resume.pdf");
+     //autoIt.send("C:\\resume\\Radha Gobinda Dash recent.docx");
 
      // Click the "Open" button
      autoIt.controlClick("Open", "&Open", "Button1");
-     */
+     
 
        Thread.sleep(5000);
-
+*/
        Reporter.log(driver.getTitle(),true);
     }
 
