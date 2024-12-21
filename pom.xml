@@ -1,10 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <properties>
-        <testng-scope>test</testng-scope> <!-- Corrected scope -->
-    </properties>
-
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>NewAutomation</groupId>
@@ -14,18 +10,18 @@
     <dependencies>
         <!-- Selenium -->
         <dependency>
-    <groupId>org.seleniumhq.selenium</groupId>
-    <artifactId>selenium-server</artifactId>
-    <version>3.141.59</version>
-<dependencies>
-    <dependency>
-        <groupId>org.testng</groupId>
-        <artifactId>testng</artifactId>
-        <version>7.8.0</version> <!-- Use the latest version -->
-        <scope>test</scope>
-    </dependency>
-</dependencies>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-server</artifactId>
+            <version>3.141.59</version>
+        </dependency>
 
+        <!-- TestNG -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.8.0</version>
+            <scope>test</scope>
+        </dependency>
 
         <!-- Apache Commons IO -->
         <dependency>
@@ -56,13 +52,11 @@
         </dependency>
 
         <!-- WebDriverManager -->
-      <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
-<dependency>
-    <groupId>io.github.bonigarcia</groupId>
-    <artifactId>webdrivermanager</artifactId>
-    <version>5.8.0</version>
-</dependency>
-
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>5.8.0</version>
+        </dependency>
     </dependencies>
 
     <build>
