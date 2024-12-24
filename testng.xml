@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
   <classes>
-      <class name="testscripts.tc0"/>
+      <class name="testscripts.tc0"/>    
       <class name="testscripts.tc1"/>
       <!-- Add more test classes here -->
     </classes> 
