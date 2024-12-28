@@ -3,28 +3,32 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>NewAutomation</groupId>
-    <artifactId>Hybrid_naukriresumeupdate</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-
-    <!-- Maven Repository Configuration -->
+     <groupId>Selenium</groupId>
+        <artifactId>SampleProject1</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    
+    <!-- Repositories Section -->
     <repositories>
         <repository>
             <id>central</id>
             <url>https://repo.maven.apache.org/maven2</url>
         </repository>
+        <repository>
+            <id>your-custom-repo</id>
+            <url>https://your.repo.url</url>
+        </repository>
     </repositories>
 
-    <!-- Project Dependencies -->
+    <!-- Dependencies Section -->
     <dependencies>
-        <!-- Selenium -->
+        <!-- Selenium Java -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-server</artifactId>
-            <version>3.141.59</version>
+            <artifactId>selenium-java</artifactId>
+            <version>4.12.1</version>
         </dependency>
 
-        <!-- TestNG -->
+        <!-- TestNG (for running tests) -->
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
@@ -39,18 +43,18 @@
             <version>2.8.0</version>
         </dependency>
 
-        <!-- Apache POI for Excel Handling -->
+        <!-- Apache POI (for Excel Handling) -->
         <dependency>
             <groupId>org.apache.poi</groupId>
-            <artifactId>poi-ooxml-schemas</artifactId>
-            <version>4.1.2</version>
+            <artifactId>poi-ooxml</artifactId>
+            <version>5.2.3</version>
         </dependency>
 
         <!-- JNA (Java Native Access) -->
         <dependency>
             <groupId>net.java.dev.jna</groupId>
             <artifactId>jna</artifactId>
-            <version>5.8.0</version>
+            <version>5.13.0</version>
         </dependency>
 
         <!-- JACOB (Java COM Bridge) -->
@@ -60,7 +64,7 @@
             <version>1.18</version>
         </dependency>
 
-        <!-- WebDriverManager for Managing Browser Drivers -->
+        <!-- WebDriverManager (for Managing Browser Drivers) -->
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
@@ -68,21 +72,9 @@
         </dependency>
     </dependencies>
 
-    <!-- Build Configuration -->
+    <!-- Build Section -->
     <build>
         <plugins>
-            <!-- Maven Surefire Plugin -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.2.5</version>
-                <configuration>
-                    <suiteXmlFiles>
-                        <suiteXmlFile>testng.xml</suiteXmlFile>
-                    </suiteXmlFiles>
-                </configuration>
-            </plugin>
-
             <!-- Maven Compiler Plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -93,6 +85,18 @@
                     <target>17</target>
                 </configuration>
             </plugin>
+
+            <!-- Maven Surefire Plugin (for running TestNG tests) -->
+           <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.5.2</version>
+        <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>testng.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
+      </plugin>
         </plugins>
     </build>
 </project>
