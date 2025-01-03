@@ -5,9 +5,11 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -20,12 +22,17 @@ public class BaseClass {
 
 
 	public WebDriverDriverUtilies driverutilies = new WebDriverDriverUtilies();
-
+@Parameters({"Browsers"})
 	@BeforeMethod
 
-	public void openApp() throws IOException {
-		WebDriverManager.chromedriver().setup();
+	public void openApp(String browser) throws IOException {
+		if(browser.equals("chrome")) {
+			WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
+		}
+		else {
+			driver = new FirefoxDriver();
+		}
 		//driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.get(pdata.getPropertyfiledata("url"));
