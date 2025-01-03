@@ -30,9 +30,12 @@ public class BaseClass {
 			WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		}
-		else {
-			driver = new FirefoxDriver();
-		}
+		else if (browser.equalsIgnoreCase("firefox")) {
+            WebDriverManager.firefoxdriver().setup();
+            driver = new FirefoxDriver();
+        } else {
+            throw new IllegalArgumentException("Unsupported browser: " + browser);
+        }
 		//driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.get(pdata.getPropertyfiledata("url"));
